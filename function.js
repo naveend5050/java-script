@@ -1,6 +1,17 @@
+<html>
+    <body>
+    <script>
+let a=4;
+let b=7;
+let z=a+b;
+</script>
+</body>
+    </html>
+ 
+  
+
+
 
    
-    let a=3;
-    let b=7;
-    alert =(a+b);
+  
   
