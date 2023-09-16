@@ -5,21 +5,39 @@
 // "Invalid choice."
 
 
-function selectColor(x){
+// function selectColor(x){
 
-    if (x== "red"|| x=="blue" || x=="green"){
+//     if (x== "red"|| x=="blue" || x=="green"){
+//         return "true";
+//     }
+ 
+//    else if(x=="blue" || x=="green")
+//    {
+//     return "selected";
+//    }
+//    else if(x=="red"){
+//     return "not available";    
+//    }
+//    return "invalid choice";
+
+//  }
+//  let x="green";
+//  console.log(selectColor(x));
+
+
+
+function selectColor(x){
+    if (x=="red" || x=="blue" || x=="green"){
         return "true";
     }
- 
-   else if(x=="blue" || x=="green")
-   {
-    return "selected";
-   }
-   else if(x=="red"){
-    return "not available";    
-   }
-   return "invalid choice";
+    else if (x=="blue" || x=="green"){
+        return "selected";
+    }
+    else if (x=="red"){
+        return "not available";
+    }
+    return "invalid choice";
+}
 
- }
- let x="orange";
- console.log(selectColor(x));
+let x="blue";
+console.log(selectColor(x));
