@@ -10,7 +10,7 @@ shoppingList[0]="eggs";
 shoppingList[1]="milk";
 shoppingList[2]="bread";
 shoppingList[3]="vegetables";
-shoppingList.slice(0,1);
+// shoppingList.slice(0,1);
 console.log(shoppingList);
 
 
