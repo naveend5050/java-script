@@ -8,13 +8,25 @@
 // Print the final array after each step.
 
 
-let fruits =["apple" , "banana"];
+// let fruits =["apple" , "banana"];
+// console.log(fruits);
+// fruits.push("orange");
+// console.log(fruits);
+// fruits.pop(fruits.length-1);
+// console.log(fruits);
+// fruits.unshift("grape");
+// console.log(fruits);
+// fruits.splice(0,1);
+// console.log(fruits);
+
+
+let fruits=["apple","banana"];
 console.log(fruits);
 fruits.push("orange");
 console.log(fruits);
 fruits.pop(fruits.length-1);
 console.log(fruits);
-fruits.unshift("grape");
+fruits.unshift("grapes");
 console.log(fruits);
-fruits.splice(0,1);
+fruits.splice(0,2);
 console.log(fruits);
