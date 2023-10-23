@@ -1,0 +1,40 @@
+// // ***find max number***
+
+// const numbers =[5,3,7,1,14,10];
+// const max =numbers.reduce((accumulator,currentvalue)=>{
+//     return accumulator>currentvalue?accumulator:currentvalue;
+// },-Infinity);
+// console.log(max);
+
+// // ***find min number***
+
+// const numbers=[3,1,13,35,0,6];
+// const min=numbers.reduce((accumulator,currentvalue)=>{
+//     return accumulator<currentvalue?accumulator:currentvalue;
+// },Infinity)
+// console.log(min);
+
+// ***form setance using words***
+
+// const words=["vicky"," ","vikyath","!"];
+// const setance=words.reduce((accumulator,currentvalue)=>{
+//     return accumulator+currentvalue;
+// },"");
+// console.log(setance);
+
+// ***flatend string***
+
+// const arrays =[[1,2],[3,4],[5,6],[7,8]];
+// const flattened=arrays.reduce((accumulator,currentvalue)=>{
+//     return accumulator.concat(currentvalue);
+// },[]);
+// console.log(flattened);
+
+// ***frequency of colors***
+
+const colors=["green","white","red","green","red","white","green"];
+const frequency=colors.reduce((accumulator,currentvalue)=>{
+    accumulator[currentvalue]=(accumulator[currentvalue]||0)+1;
+    return accumulator;
+},[]);
+console.log(frequency);
